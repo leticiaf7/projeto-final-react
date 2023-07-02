@@ -1,0 +1,61 @@
+:root {
+    --amarelo: #ffd940;
+    --azul: #003866;
+    --vermelho: #a82d29;
+    --branco: #ffffff;
+  }
+  
+  body {
+    background-color: var(--amarelo);
+    font-family: Arial, sans-serif;
+    color: var(--azul);
+    text-align: center;
+  }
+  h1 {
+    color: var(--vermelho);
+    text-align: center;
+  }
+  
+  a {
+    color: var(--vermelho);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: var(--vermelho);
+    color: var(--amarelo);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #999999;
+    cursor: not-allowed;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .card {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: var(--branco);
+    border: 5px solid var(--vermelho);
+    border-radius: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    background-color: var(--branco);
+    margin: 0 10px;
+  }
+  
